@@ -1,0 +1,48 @@
+e:Hit any key
+e:Completed socket interaction for boot stage final
+s:
+e:login:
+s:ubuntu
+e:Password:
+s:ubuntu
+e:Current password:
+s:ubuntu
+e:New password:
+s:ubuntu1
+e:Retype new password:
+s:ubuntu1
+e:ubuntu@
+s:sudo apt update
+e:Fetched
+e:ubuntu@
+s:echo $?
+e:0
+s:sudo apt install hello -y
+e:Installing:
+e:Summary:
+e:Fetched
+e:Unpacking hello
+e:Setting up hello
+e:ubuntu@
+s:clear
+e:ubuntu@
+s:hello
+e:Hello, world!
+e:ubuntu@
+s:sudo snap install hello
+e:installed
+e:ubuntu@
+s:clear
+e:ubuntu@
+s:echo $?
+e:0
+e:ubuntu@
+s:snap list hello
+e:hello
+e:ubuntu@
+s:snap run hello
+e:Hello, world!
+e:ubuntu@
+s:sudo poweroff
+e:The system will power off now!
+e:reboot: Power down
