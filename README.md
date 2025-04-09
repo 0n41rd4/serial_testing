@@ -5,3 +5,5 @@ Lines of the form s:foo send the string foo via the command line.
 Lines of the form e:foo1,foo2,foo3,... wait until any of foo1, foo2, foo3,
 ... is read from the serial output. Once one of them is read, the next line
 in commands.txt is processed.
+
+Usage: power on the board and immediately issue 'python3 test.py'
